@@ -21,7 +21,7 @@ function main() {
   // The start and end date of the date range for your search query data
   // Format is yyyy-mm-dd
   
-  var currencySymbol = "£";
+  var currencySymbol = "$";
   // The currency symbol used for formatting. For example "£", "$" or "€".
   
   var campaignNameContains = "";
@@ -34,11 +34,11 @@ function main() {
   // such as campaigns with names containing 'Brand' or 'Shopping'.
   // Leave as "" if not wanted.
   
-  var ignorePausedCampaigns = true;
+  var ignorePausedCampaigns = false;
   // Set this to true to only look at currently active campaigns.
   // Set to false to include campaigns that had impressions but are currently paused.
   
-  var ignorePausedAdGroups = true;
+  var ignorePausedAdGroups = false;
   // Set this to true to only look at currently active ad groups.
   // Set to false to include ad groups that had impressions but are currently paused.
   
@@ -49,7 +49,7 @@ function main() {
   // The URL of the Google Doc the results will be put into.
   
   var minNGramLength = 1;
-  var maxNGramLength = 2;
+  var maxNGramLength = 3;
   // The word length of phrases to be checked.
   // For example if minNGramLength is 1 and maxNGramLength is 3, 
   // phrases made of 1, 2 and 3 words will be checked.
