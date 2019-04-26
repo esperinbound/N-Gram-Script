@@ -16,8 +16,8 @@ function main() {
   //////////////////////////////////////////////////////////////////////////////
   // Options
   
-  var startDate = "2015-07-01";
-  var endDate = "2015-07-30";
+  var startDate = "2019-01-01";
+  var endDate = "2019-04-26";
   // The start and end date of the date range for your search query data
   // Format is yyyy-mm-dd
   
